@@ -1,9 +1,7 @@
 # Yandex_CodeRun
 <h1 align="center">Hi there, I'm <a href="https://vk.com/gipnotyin" target="_blank">Ruslan</a> 
-Задачки, которые получилось как-то решить
-
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Computer science student, IT news writer from Russia 🇷🇺</h3>
+<h3 align="center">Разбор задачек, которые получилось решить :)🇺</h3>
 
 
 
