@@ -19,15 +19,6 @@
    В единственной строке выведите ответ на задачу.
    
 <summary>Решение</summary>
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Ввод          | Вывод         |
-| ------------- | ------------- |
-| 5             | 5             |
-|1 2 3 4 5      |               |
-	
 ```python
 import sys
 from collections import defaultdict
@@ -50,10 +41,6 @@ if __name__ == '__main__':
 ```
 </details>
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 | Ввод          | Вывод         |
 | ------------- | ------------- |
 | 5             | 5             |
