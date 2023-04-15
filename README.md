@@ -19,6 +19,10 @@
    В единственной строке выведите ответ на задачу.
    
 <summary>Решение</summary>
+	| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Ввод          | Вывод         |
 | ------------- | ------------- |
 | 5             | 5             |
