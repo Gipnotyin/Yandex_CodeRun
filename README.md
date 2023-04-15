@@ -19,6 +19,7 @@
    В единственной строке выведите ответ на задачу.
    
 <summary>Решение</summary>
+	
 ```python
 import sys
 from collections import defaultdict
@@ -41,9 +42,5 @@ if __name__ == '__main__':
 ```
 </details>
 
-| Ввод          | Вывод         |
-| ------------- | ------------- |
-| 5             | 5             |
-|1 2 3 4 5      |               |
 
 
