@@ -6,21 +6,45 @@
 
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary>Уникальные элементы</summary>
 
-### You can add a header
+### Условие задачи
 
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
+   Задан массив a размера n. Необходимо посчитать количество уникальных элементов в данном массиве. Элемент называется уникальным, если встречается в массиве ровно один раз.
+   
+###Формат ввода
+   В первой строке входных данных подается одно целое число n. Во второй строке входных данных подается n целых чисел, разделенных пробелами.
+   
+###Формат вывода
+   В единственной строке выведите ответ на задачу.
+   
+###Решение
 ```python
-   print("Hello World")
-```
-| First Header  | Second Header |
+import sys
+from collections import defaultdict
+
+###Примеры
+| Ввод          | Вывод         |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 5             | 5             |
+|1 2 3 4 5      |               |
+
+def main():
+  size = int(input())
+  arr = [int(a) for a in input().split()]
+  unic = defaultdict(int)
+  count = 0
+  for a in arr:
+    unic[a] += 1
+  for a in unic.values():
+    if a == 1:
+      count+=1
+  print(count)
+
+
+if __name__ == '__main__':
+	main()
+```
 </details>
 
 
