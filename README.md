@@ -14,13 +14,13 @@ You can add text within a collapsed section.
 
 You can add an image or a code block, too.
 
-```ruby
-   puts "Hello World"
+```python
+   print("Hello World")
 ```
-
-</details>
-
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+</details>
+
+
